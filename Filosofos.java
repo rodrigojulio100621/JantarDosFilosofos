@@ -78,13 +78,13 @@ public class Filosofos {
     
     String nome;
     Garfos garfo;
-    int lugarNaMesa;
+   
     
-    public Filosofo(String nome,Garfos garfo,int lugarNaMesa){
+    public Filosofo(String nome,Garfos garfo){
     
         this.nome = nome;
         this.garfo = garfo;
-        this.lugarNaMesa = lugarNaMesa; 
+      
         
         
         System.out.println("O Filosofo "+ nome + " Sentou na mesa.");
@@ -271,11 +271,11 @@ public class Filosofos {
         Garfos g5 = new Garfos(5, 4);
         
         
-        Filosofo filosofo1 = new Filosofo("Platão", g1, 1);
-        Filosofo filosofo2 = new Filosofo("Aristoteles", g2, 2);
-        Filosofo filosofo3 = new Filosofo("Socrates", g3, 3);
-        Filosofo filosofo4 = new Filosofo("Descartes", g4, 4);
-        Filosofo filosofo5 = new Filosofo("Euclides", g5, 5);
+        Filosofo filosofo1 = new Filosofo("Platão", g1);
+        Filosofo filosofo2 = new Filosofo("Aristoteles", g2);
+        Filosofo filosofo3 = new Filosofo("Socrates", g3);
+        Filosofo filosofo4 = new Filosofo("Descartes", g4);
+        Filosofo filosofo5 = new Filosofo("Euclides", g5);
         
         new Thread(filosofo1).start();
         new Thread(filosofo2).start();
