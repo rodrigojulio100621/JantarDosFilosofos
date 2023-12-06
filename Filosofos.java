@@ -9,7 +9,7 @@ import java.util.Random;
 
 /**
  *
- * @author rodri
+ * @author rodrif
  */
 public class Filosofos {
     
