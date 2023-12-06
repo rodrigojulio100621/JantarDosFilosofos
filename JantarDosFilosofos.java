@@ -9,8 +9,8 @@ package jantardosfilosofos;
  *
  * @author rodri
  */
-public class JantarDosFilosofos{
-
+public class JantarDosFilosofos{ 
+//obs
     /**
      * @param args the command line arguments
      */
